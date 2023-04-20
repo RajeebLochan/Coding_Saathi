@@ -1,7 +1,7 @@
 import random
 
 num_rounds = 3
-max_guesses = 6
+max_guesses = 10
 score = 0
 
 print("Welcome to the Number Guessing Game!")
