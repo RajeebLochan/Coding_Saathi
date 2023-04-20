@@ -1,7 +1,7 @@
 import random
 
-num_rounds =5 
-max_guesses = 10
+num_rounds = 3
+max_guesses = 6
 score = 0
 
 print("Welcome to the Number Guessing Game!")
@@ -13,7 +13,6 @@ for i in range(num_rounds):
     secret_number = random.randint(1, 100)
     num_guesses = 0
     print("Round", i+1, "starts now!")
-    
     while num_guesses < max_guesses:
         guess = int(input("Guess a number between 1 and 100: "))
         num_guesses += 1
